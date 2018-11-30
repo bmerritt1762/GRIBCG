@@ -1,0 +1,12 @@
+Package: predictSGRNA
+Type: Package
+Title: Predicts sgRNA efficiency.
+Version: 1.0.1
+Date: 2017-05-06
+Author: Pei Fen Kuan
+Maintainer: Pei Fen Kuan <peifen.kuan@stonybrook.edu>
+Depends: R (>= 3.0.0)
+Description: The predictSGRNA package predicts sgRNA efficiency from position dependent dinucleotide model of Kuan et al. (2017).
+License: GPL (>= 2)
+NeedsCompilation: no
+Packaged: 2017-06-18 18:32:44 UTC; peifenkuan
