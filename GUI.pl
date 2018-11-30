@@ -107,13 +107,13 @@ sub alter_parameters{
 	$help_circle_balloon-> attach($help_circle4, -statusmsg => "Specify how max cuts that can occur for balanced chromosomes");
 
 
-	my $change_pam_mismatch_button = $mw->Button(-text => "Pam Mismatch File", -command => \&pam_file_search)-> place (-anchor => "nw", -x => 20, -y => 350);
+	my $change_pam_mismatch_button = $mw->Button(-text => "PAM Mismatch File", -command => \&pam_file_search)-> place (-anchor => "nw", -x => 20, -y => 350);
 	$change_pam_mismatch_display = $mw->Label(-text => $pam_mismatch_file, -background=>'white')-> place (-anchor => "nw", -x => 180, -y => 355);
 	my $pam_mismatch_balloon = $mw -> Balloon(-statusbar => $help_space);
 	$pam_mismatch_balloon -> attach($change_pam_mismatch_button, -statusmsg => "Input .pkl file containing mismatch scoring matrix for pam sequences.");
 
 
-	my $change_mismatch_button = $mw->Button(-text => "Pam Mismatch File", -command => \&mismatch_file_search)-> place (-anchor => "nw", -x => 20, -y => 390);
+	my $change_mismatch_button = $mw->Button(-text => "Spacer Mismatch File", -command => \&mismatch_file_search)-> place (-anchor => "nw", -x => 20, -y => 390);
 	$change_mismatch_display = $mw->Label(-text => $mismatch_file, -background=>'white')-> place (-anchor => "nw", -x => 180, -y => 395);
 	my $mismatch_balloon = $mw -> Balloon(-statusbar => $help_space);
 	$mismatch_balloon -> attach($change_mismatch_button, -statusmsg => "Input .pkl file containing mismatch scoring matrix for single, non-PAM NT's.");
