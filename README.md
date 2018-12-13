@@ -21,4 +21,10 @@ This is a a local run-tool for Linux-based platforms. Throughout testing has not
 GRIBCG generates several temporary files during its process. Because of the size of some genomes, it is recommended to allow several gigabytes of storage for organisms of larger genome sizes. In addition, the recommended memory changes based on genome size as well. Mouse, for instance, requires over 8 GB of Memory whereas A. thaliana requires 970 MB. 
 
 ## Tutorial
-Refere to usage.pdf for a walkthrough of this tool
+Refer to usage.pdf for a walkthrough of this tool
+
+## Resource Locations
+predictSGRNA: http://www.ams.sunysb.edu/~pfkuan/softwares.html#predictsgrna
+CFD Scoring Matrix: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4744125/
+Perl Tk GUI: https://metacpan.org/pod/Tk::UserGuide
+BioPerl: https://bioperl.org/INSTALL.html
