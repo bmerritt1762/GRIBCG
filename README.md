@@ -25,6 +25,9 @@ Refer to usage.pdf for a walkthrough of this tool
 
 ## Resource Locations
 predictSGRNA: http://www.ams.sunysb.edu/~pfkuan/softwares.html#predictsgrna
+
 CFD Scoring Matrix: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4744125/
+
 Perl Tk GUI: https://metacpan.org/pod/Tk::UserGuide
+
 BioPerl: https://bioperl.org/INSTALL.html
