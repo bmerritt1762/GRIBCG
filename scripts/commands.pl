@@ -32,6 +32,9 @@ foreach (@files){
 if ($test != -1){
 	system("perl ./test/validate.pl $test"); exit;
 }
+if (!(-e "tmp")){
+  system("mkdir tmp");
+}
 
 print "Screening all sgRNAs\n";
 system("perl scripts/g2.pl $seed_count @files");

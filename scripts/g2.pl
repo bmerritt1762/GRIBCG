@@ -15,6 +15,7 @@ my %accepted;
 my @sequence_ids=();
 my %count = (); my $off_target_count=0; my $size = 0;
 my $number = ""; my @a=(); my $fullseq; my $current_seq; my $partial;
+
 open (my $fh_Output, '>', "./tmp/tmp_txt.txt");
 open (my $fh_output_test_fullseqs, ">", "./tmp/test_on_target_score.txt");
 #loop through each file contents
